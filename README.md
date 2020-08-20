@@ -40,17 +40,15 @@
 * [Acknowledgements](#acknowledgements)
 
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## 2KM ARC
 
 <img src="https://i.imgur.com/F4KAijk.png"/>
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+On April 28, 2015 WWE 2K released WWE 2K15, which was the first PC release of a Wrestling game since 2002 (WWE RAW). Since that time a community has formed organically and we collectively made discoveries that which allow custom content for the game, from full wrestlers to even sound. In that same time, community members made several tools to make the process of modding easier and as imaginable it could be quite time consuming having to navigate each of those tools. 2KM Arc is a recursive IO tool designed to make the process of modding almost instantaneous while cutting back on the unnessesary workflow and the exorbitant amount of files that compact folders.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
+Here's how:
+* One time click injection of singular files with two methods of compression OODLE & ZLIB.
+* Open any archive and have it deserialize with moments, allowing you to peer deep into an archives contents.
 * You should element DRY principles to the rest of your life :smile:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
