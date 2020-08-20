@@ -22,17 +22,13 @@
   </p>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-* [Usage](#usage)
+* [About the Project](#2km-arc)
+* [Usage](#export-decompressed-archive)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-
 
 ## 2KM ARC
 
@@ -62,10 +58,10 @@ Arc will extract the raw compressed archive if it exists. Arc will alert you if 
 # Import Compressed Archive
 
 ## ZLIB
-With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with ZLIB (slower) then inject and replace the pre-existing archive.
+With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with ZLIB (slower) then inject and replace the pre-existing archive. This can work on singular texture files.
 
 ## OODLE
-With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with OODLE (Kraken) (very fast!) then inject and replace the pre-existing archive.
+With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with OODLE (Kraken) (very fast!) then inject and replace the pre-existing archive. This can work on singular texture files.
 
 # Import Standard Archive
 
@@ -75,7 +71,19 @@ With a container node selected, this will ask for a new container such as BPE, P
 ## BIN
 With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new   one. This can be equated to importing an uncompressed archive.
 
+<br /><br /><br /><br />
+# Utility (Context Menu)
 
+## Rename Header
+Selecting a valid container or binary archive, this will open a new window with your object data. From here this allows you to rename/modify the pre-existing archive. This is useful when modding with EPK8 archives.
+
+## Extract Texture(s)
+With a binary archive selected that has the name '0014', this will prompt you for two locations. The first location is where you wish to store the extracted textures, and the second is the tx archive that contains the textures. Arc will then uncompress, convert and extract the textures to your chosen location.
+
+## Apply Muscle
+NOT YET IMPLEMENTED
+
+<br /><br /><br /><br />
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -85,22 +93,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Grix - [@dotGrix](https://twitter.com/dotGrix)
 
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
+* PerfectPlex (Imp)
+* 2KM Discord/Community 
+* Tekken57
+* Xentax
+* Keshire
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
