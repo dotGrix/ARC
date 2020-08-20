@@ -51,8 +51,14 @@ Here's how:
 ## Support Me
 I work on Arc in my free time, this is a passion project. If you wish to support me and my efforts to make this tool better, you are welcome to send a donation. 
 * [Donate Here](https://www.paypal.com/donate?token=G74NJrqBUTljEl7Y5x7oXiSwCwAbBv-cI6u0L8LBaz9vmzJQxQst23QRjWUj-PInMh4JDqwoKgYE5PjZ)
+<br /><br />
 
+# Export Decompressed Archive
+Arc will extract the deserialized archive if it exists, if a decompressed version does not exist it will give you the compressed version and ultimately fail if neither exist in the context.
 
+# Export Compressed Archive
+Arc will extract the raw compressed archive if it exists. Arc will alert you if the archive does not exist.
+<br /><br /><br /><br />
 # Import Compressed Archive
 
 ## ZLIB
@@ -67,50 +73,16 @@ With an archive node selected in the tree view that you wish to replace, this wi
 With a container node selected, this will ask for a new container such as BPE, PACH or SHDC. Once chosen, it will inject and replace the previous container with the new file.
 
 ## BIN
-With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new   one.
+With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new   one. This can be equated to importing an uncompressed archive.
 
 
-
-
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
-<!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
+Grix - [@dotGrix](https://twitter.com/dotGrix)
 
 
 <!-- ACKNOWLEDGEMENTS -->
