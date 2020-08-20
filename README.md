@@ -28,13 +28,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -49,56 +43,27 @@ On April 28, 2015 WWE 2K released WWE 2K15, which was the first PC release of a 
 Here's how:
 * One time click injection of singular files with two methods of compression OODLE & ZLIB.
 * Open any archive and have it deserialize with moments, allowing you to peer deep into an archives contents.
-* You should element DRY principles to the rest of your life :smile:
+* Utility tools that allow an end user to mass deserialize entire folders of archives.
+* Preview window for textures inside archives, no more having to extract a file to see what it looks like.
+* The injection process allows you to keep the game open while modding, without having the need to restart the game to see results.
+* Create completely new 2K archives from scratch.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+### Support Me
+I work on Arc in my free time, this is a passion project. If you wish to support me and my efforts to make this tool better, you are welcome to send a donation. 
+* [Donate Here](https://www.paypal.com/donate?token=G74NJrqBUTljEl7Y5x7oXiSwCwAbBv-cI6u0L8LBaz9vmzJQxQst23QRjWUj-PInMh4JDqwoKgYE5PjZ)
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+## Import Compressed Archive > ZLIB
+With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with ZLIB (slower) then inject and replace the pre-existing archive.
 
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+## Import Compressed Archive > OODLE
+With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with OODLE (Kraken) (very fast!) then inject and replace the pre-existing archive.
 
+## Import Standard Archive > SHDC
+With a container node selected, this will ask for a new container such as BPE, PACH or SHDC. Once chosen, it will inject and replace the previous container with the new file.
 
+## Import Standard Archive > BIN
+With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new one.
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
