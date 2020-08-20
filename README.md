@@ -48,21 +48,29 @@ Here's how:
 * The injection process allows you to keep the game open while modding, without having the need to restart the game to see results.
 * Create completely new 2K archives from scratch.
 
-### Support Me
+## Support Me
 I work on Arc in my free time, this is a passion project. If you wish to support me and my efforts to make this tool better, you are welcome to send a donation. 
 * [Donate Here](https://www.paypal.com/donate?token=G74NJrqBUTljEl7Y5x7oXiSwCwAbBv-cI6u0L8LBaz9vmzJQxQst23QRjWUj-PInMh4JDqwoKgYE5PjZ)
 
-## Import Compressed Archive > ZLIB
+
+# Import Compressed Archive
+
+## ZLIB
 With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with ZLIB (slower) then inject and replace the pre-existing archive.
 
-## Import Compressed Archive > OODLE
+## OODLE
 With an archive node selected in the tree view that you wish to replace, this will ask for a new archive (e.g. PAC, Texture Archive, muscle file, masking file etc). Once chosen it will compress the archive with OODLE (Kraken) (very fast!) then inject and replace the pre-existing archive.
 
-## Import Standard Archive > SHDC
+# Import Standard Archive
+
+## SHDC
 With a container node selected, this will ask for a new container such as BPE, PACH or SHDC. Once chosen, it will inject and replace the previous container with the new file.
 
-## Import Standard Archive > BIN
-With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new one.
+## BIN
+With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new   one.
+
+
+
 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
