@@ -49,12 +49,15 @@ I work on Arc in my free time, this is a passion project. If you wish to support
 * [Donate Here](https://www.paypal.com/donate?token=G74NJrqBUTljEl7Y5x7oXiSwCwAbBv-cI6u0L8LBaz9vmzJQxQst23QRjWUj-PInMh4JDqwoKgYE5PjZ)
 <br /><br />
 
-# Export Decompressed Archive
+# General
+
+## Export Decompressed Archive
 Arc will extract the deserialized archive if it exists, if a decompressed version does not exist it will give you the compressed version and ultimately fail if neither exist in the context.
 
-# Export Compressed Archive
+## Export Compressed Archive
 Arc will extract the raw compressed archive if it exists. Arc will alert you if the archive does not exist.
-<br /><br /><br /><br />
+
+<br />
 # Import Compressed Archive
 
 ## ZLIB
