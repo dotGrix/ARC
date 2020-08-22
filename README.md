@@ -46,7 +46,8 @@ Here's how:
 
 ## Support Me
 I work on Arc in my free time, this is a passion project. If you wish to support me and my efforts to make this tool better, you are welcome to send a donation. 
-* [Donate Here](https://www.paypal.com/donate?token=G74NJrqBUTljEl7Y5x7oXiSwCwAbBv-cI6u0L8LBaz9vmzJQxQst23QRjWUj-PInMh4JDqwoKgYE5PjZ)
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XNPMKZG77WUCJ&source=url)
 <br /><br />
 
 # General
