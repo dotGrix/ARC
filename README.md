@@ -43,6 +43,7 @@ Here's how:
 * Preview window for textures inside archives, no more having to extract a file to see what it looks like.
 * The injection process allows you to keep the game open while modding, without having the need to restart the game to see results.
 * Create completely new 2K archives from scratch.
+* Drag 'n' Drop files. 
 
 ## Support Me
 I work on Arc in my free time, this is a passion project. If you wish to support me and my efforts to make this tool better, you are welcome to send a donation. 
@@ -85,8 +86,8 @@ Selecting a valid container or binary archive, this will open a new window with 
 ## Extract Texture(s)
 With a binary archive selected that has the name '0014', this will prompt you for two locations. The first location is where you wish to store the extracted textures, and the second is the tx archive that contains the textures. Arc will then uncompress, convert and extract the textures to your chosen location.
 
-## Apply Muscle
-NOT YET IMPLEMENTED
+## Sync Muscles
+YOBJ file(s) have this utility available. When pressed, a window will appear asking you for the muscle archive (00CA) that belongs to the targetted YOBJ. Upon selecting the 00CA, ARC will use the pre-existing 00CA in the container and merge the muscle information onto the selected YOBJ and then inject back into the container. 
 
 <br /><br /><br /><br />
 ## License
