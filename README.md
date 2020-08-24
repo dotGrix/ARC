@@ -35,7 +35,7 @@ Here's how:
 I work on Arc in my free time, this is a passion project. If you wish to support me and my efforts to make this tool better, you are welcome to send a donation. 
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XNPMKZG77WUCJ&source=url)
-<br /><br />
+<br />
 
 # General
 
@@ -45,7 +45,7 @@ Arc will extract the deserialized archive if it exists, if a decompressed versio
 ## Export Compressed Archive
 Arc will extract the raw compressed archive if it exists. Arc will alert you if the archive does not exist.
 
-<br /><br />
+<br />
 
 # Import Compressed Archive
 
@@ -63,7 +63,7 @@ With a container node selected, this will ask for a new container such as BPE, P
 ## BIN
 With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new   one. This can be equated to importing an uncompressed archive.
 
-<br /><br />
+<br />
 
 # Create (Toolbar)
 
@@ -83,7 +83,7 @@ Allows you to multi-select archives and turn them into either a SHDC or PACH con
 ## Mass Extract Directory
 Pressing will open the first window asking where you would like to save the extracted containers/archives. The second window will ask where the files you're wanting to extract are located. Once this process has completed ARC will begin to deserialize and dump out the contents from the files you targetted. 
 
-<br /><br />
+<br />
 
 # Utility (Context Menu)
 
@@ -96,7 +96,7 @@ With a binary archive selected that has the name '0014', this will prompt you fo
 ## Sync Muscles
 YOBJ file(s) have this utility available. When pressed, a window will appear asking you for the muscle archive (00CA) that belongs to the targetted YOBJ. Upon selecting the 00CA, ARC will use the pre-existing 00CA in the container and merge the muscle information onto the selected YOBJ and then inject back into the container. 
 
-<br /><br />
+<br />
 
 ## License
 
