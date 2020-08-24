@@ -59,7 +59,7 @@ Arc will extract the deserialized archive if it exists, if a decompressed versio
 ## Export Compressed Archive
 Arc will extract the raw compressed archive if it exists. Arc will alert you if the archive does not exist.
 
-<br />
+<br /><br />
 
 # Import Compressed Archive
 
@@ -77,7 +77,28 @@ With a container node selected, this will ask for a new container such as BPE, P
 ## BIN
 With a node selected, this will ask for raw binary you wish to replace the selected node with. Once chosen, it will inject and replace the previous archive file with the new   one. This can be equated to importing an uncompressed archive.
 
-<br /><br /><br /><br />
+<br /><br />
+
+# Create (Toolbar)
+
+## Texture Archive
+Allows you to multi-select .DDS files and save them into a texture archive. This is useful for when creating new 000A and 000C archives.
+
+## EPK8 Archive
+Allows you to multi-select archives and save them into an EPK8 container - options to set the container name and type. These archives are especially unique and allow for greater control with 2K modding. 
+
+## Container
+Allows you to multi-select archives and turn them into either a SHDC or PACH container. SHDC/PACH containers are used in conjunction with HSPC and EPK8 containers. 
+
+<br /><br />
+
+# Utility (Toolbar)
+
+## Mass Extract Directory
+Pressing will open the first window asking where you would like to save the extracted containers/archives. The second window will ask where the files you're wanting to extract are located. Once this process has completed ARC will begin to deserialize and dump out the contents from the files you targetted. 
+
+<br /><br />
+
 # Utility (Context Menu)
 
 ## Rename Header
@@ -89,7 +110,8 @@ With a binary archive selected that has the name '0014', this will prompt you fo
 ## Sync Muscles
 YOBJ file(s) have this utility available. When pressed, a window will appear asking you for the muscle archive (00CA) that belongs to the targetted YOBJ. Upon selecting the 00CA, ARC will use the pre-existing 00CA in the container and merge the muscle information onto the selected YOBJ and then inject back into the container. 
 
-<br /><br /><br /><br />
+<br /><br />
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
