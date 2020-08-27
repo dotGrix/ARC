@@ -29,7 +29,8 @@ Here's how:
 * Preview window for textures inside archives, no more having to extract a file to see what it looks like.
 * The injection process allows you to keep the game open while modding, without having the need to restart the game to see results.
 * Create completely new 2K archives from scratch.
-* Drag 'n' Drop files. 
+* Drag 'n' Drop files.
+* Last gen archives supported.
 
 ## Support Me
 I work on Arc in my free time, this is a passion project. If you wish to support me and my efforts to make this tool better, you are welcome to send a donation. 
